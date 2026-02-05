@@ -1,0 +1,12 @@
+symptom,short_key,notes,prelim_weight
+Chest pain or pressure,chest,Classic strong predictor; crushing or squeezing sensation,5
+Pain radiating to arms/jaw/back,radiating,Chest pain spreading to other body areas,4
+Shortness of breath,breath,Serious sign; can occur with or without chest pain,4
+Profuse sweating,sweat,Cold clammy sweating; often accompanies chest pain,3
+Nausea or vomiting,nausea,Common in women; often occurs without chest pain,3
+Upper back pain,back,Atypical female symptom; radiating discomfort between shoulders,3
+Jaw or neck pain,jaw,Atypical but significant in women; pain in lower jaw or throat,3
+Indigestion-like discomfort,indigestion,Can mimic heartburn or stomach upset,2
+Sudden anxiety or dread,anxiety,Feeling of impending doom; panic-like sensation,2
+Unusual fatigue,fatigue,Persistent exhaustion; can occur days or weeks before event,2
+Dizziness or lightheadedness,dizzy,Feeling faint or unsteady,1

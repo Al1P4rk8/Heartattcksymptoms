@@ -1,0 +1,120 @@
+## Vignette 1: Classic Emergency - Chest Pain + High Score
+**Symptoms:** Chest pain (5), Shortness of breath (4), Sweating (3)
+**Total score:** 12
+**Expected:** Emergency (safety rule: chest + symptom ≥3)
+**Actual:** [the result is valid. Emergency]
+
+## Vignette 2: Single Severe Symptom
+**Symptoms:** Chest pain only (5)
+**Total score:** 5
+**Expected:** Monitor or GP (no safety rule triggered, score <7)
+**Actual:** [These symptoms may need prompt medical attention. Please go to A&E or urgent care as soon as possible.]
+
+## Vignette 3: Atypical Female Presentation
+**Symptoms:** Unusual fatigue (2), Nausea (3), Jaw pain (3)
+**Total score:** 8
+**Expected:** Emergency (score ≥7)
+**Actual:** [your symptoms could be serious. its safest to call emergency services right now.]
+
+## Vignette 4: Borderline A&E Case
+**Symptoms:** Back pain (3), Indigestion (2)
+**Total score:** 5
+**Expected:** A&E (score 4-6)
+**Actual:** [your symptoms could be serious. its safest to call emergency services right now]
+
+## Vignette 5: Minimal Symptoms
+**Symptoms:** Dizziness only (1)
+**Total score:** 1
+**Expected:** GP (score 1-3)
+**Actual:** [your symptoms dont strongly suggest an emergency but its important to speak with GP]
+
+Vignette 6: Borderline Emergency by Score
+Symptoms: Radiating pain (4), Sweating (3), Dizziness (1)
+Total score: 8
+Expected: Emergency (score ≥7)
+Actual: [your symptoms could be serious. it's safest to call emergency services right now]
+
+Vignette 7: Chest Pain + One Mild Symptom (Safety Net Triggered)
+Symptoms: Chest pain (5), Dizziness (1)
+Total score: 6
+Expected: EMERGENCY (Safety rule: chest pain + any other symptom)
+Actual: [your symptoms could be serious. it's safest to call emergency services right now]
+
+Vignette 8: High Score Without Chest Pain
+Symptoms: Radiating pain (4), Shortness of breath (4), Nausea (3)
+Total score: 11
+Expected: Emergency (score ≥7)
+Actual: [your symptoms could be serious. it's safest to call emergency services right now]
+
+Vignette 9: Multiple Atypical Symptoms (Female Pattern)
+Symptoms: Nausea (3), Back pain (3), Fatigue (2), Dizziness (1)
+Total score: 9
+Expected: Emergency (score ≥7)
+Actual: [your symptoms could be serious. it's safest to call emergency services right now]
+
+Vignette 10: A&E Case - Just Below Emergency Threshold
+Symptoms: Radiating pain (4), Indigestion (2)
+Total score: 6
+Expected: A&E (score 4-6)
+Actual: [your symptoms could be serious. it's safest to call emergency services right now]
+
+Vignette 11: Minimal GP Case
+Symptoms: Anxiety (2), Dizziness (1)
+Total score: 3
+Expected: GP (score 1-3)
+Actual: [your symptoms don't strongly suggest an emergency, but it's important to speak with a GP soon.]
+
+Vignette 12: Single Moderate Symptom - A&E
+Symptoms: Shortness of breath only (4)
+Total score: 4
+Expected: A&E (score 4-6)
+Actual: [these symptom may need prompt medical attention. please go to A&E or urgent as soon as possible]
+
+Vignette 13: Chest Pain with Multiple Low-Grade Symptoms
+Symptoms: Chest pain (5), Indigestion (2), Anxiety (2), Fatigue (2)
+Total score: 11
+Expected: Emergency (safety rule triggered: chest + other symptoms)
+Actual: [TEST IT]
+
+Vignette 14: A&E Borderline Case
+Symptoms: Back pain (3), Dizziness (1)
+Total score: 4
+Expected: A&E (score 4-6)
+Actual: [TEST IT]
+
+Vignette 15: All Mild Symptoms but High Score
+Symptoms: Indigestion (2), Anxiety (2), Fatigue (2), Dizziness (1)
+Total score: 7
+Expected: Emergency (score ≥7)
+Actual: [TEST IT]
+
+Vignette 16: Classic Heart Attack Triad
+Symptoms: Chest pain (5), Radiating pain (4), Sweating (3)
+Total score: 12
+Expected: Emergency (safety rule + high score)
+Actual: [TEST IT]
+
+Vignette 17: Just Above GP Threshold
+Symptoms: Back pain (3), Anxiety (2)
+Total score: 5
+Expected: A&E (score 4-6)
+Actual: [TEST IT]
+
+Vignette 18: Chest Pain Alone (Safety Net NOT Triggered)
+Symptoms: Chest pain ONLY (5)
+Total score: 5
+Expected: A&E (score 4-6, NO safety rule - chest pain alone)
+Actual: [TEST IT]
+
+Vignette 19: Mixed Presentation Without Chest Pain
+Symptoms: Shortness of breath (4), Jaw pain (3), Nausea (3)
+Total score: 10
+Expected: Emergency (score ≥7)
+Actual: [TEST IT]
+
+Vignette 20: Complex Female Presentation
+Symptoms: Fatigue (2), Nausea (3), Back pain (3), Dizziness (1), Anxiety (2)
+Total score: 11
+Expected: Emergency (score ≥7)
+Actual: [TEST IT]
+
